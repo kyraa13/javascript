@@ -1,11 +1,157 @@
 1. for
-for ( let i = 0; i < element.length; i++ ) {
-    p[i].innerHTML = 'Hallo World'+ i;
-  };
+    Contoh 1:
+    for ( let i = 0; i < element.length; i++ ) {
+        p[i].innerHTML = 'Hallo World'+ i;
+      };
+    
+    Contoh 2:
+    for (expression 1; expression 2; expression 3) {
+      // code block to be executed
+    }
+    
+    Contoh 3:
+    const cars = ["BMW", "Volvo", "Saab", "Ford"];
+    let i = 0;
+    let text = "";
 
-for (expression 1; expression 2; expression 3) {
-  // code block to be executed
-}
+    for (;cars[i];) {
+      text += cars[i];
+      i++;
+    }
 
-2. 
 
+2. for/in
+    for (key in object) {
+      // code block to be executed
+    }
+
+    contoh 1:
+        const person = {fname:"John", lname:"Doe", age:25};
+
+        let text = "";
+        for (let x in person) {
+          text += person[x];
+        }
+
+    contoh 2:
+        const numbers = [45, 4, 9, 16, 25];
+
+        let txt = "";
+        for (let x in numbers) {
+          txt += numbers[x];
+        }
+
+
+3. forEach()
+    Metode forEach()memanggil fungsi (fungsi callback) satu kali untuk setiap elemen array.
+    Contoh 1:
+        const numbers = [45, 4, 9, 16, 25];
+
+        let txt = "";
+        numbers.forEach(myFunction);
+
+        function myFunction(value, index, array) {
+          txt += value;
+        }
+    Contoh 2:
+        const numbers = [45, 4, 9, 16, 25];
+
+        let txt = "";
+        numbers.forEach(myFunction);
+
+        function myFunction(value) {
+          txt += value;
+        }
+
+
+4. For/Of
+    Pernyataan JavaScript for ofmengulang melalui nilai objek yang dapat diubah.
+    Ini memungkinkan Anda mengulang struktur data yang dapat diubah seperti Array, String, Peta, NodeList, dan lainnya:
+    
+    Syntax:
+    for (variable of iterable) {
+      // code block to be executed
+    }
+    
+    Contoh 1,
+    Mengulangi array:
+        const cars = ["BMW", "Volvo", "Mini"];
+
+        let text = "";
+        for (let x of cars) {
+          text += x;
+        }
+    
+    Contoh 2,
+    Mengulangi sebuah striing:
+        let language = "JavaScript";
+
+        let text = "";
+        for (let x of language) {
+        text += x;
+        }
+     
+     
+5. While
+    Loop dapat mengeksekusi blok kode selama kondisi tertentu benar.
+    Loop whileloop melalui blok kode selama kondisi yang ditentukan benar.
+    
+    Syntaks:
+    while (condition) {
+      // code block to be executed
+    }
+    
+    Contoh 1,
+    while (i < 10) {
+      text += "The number is " + i;
+      i++;
+    }
+    
+    Contoh 2:
+    const cars = ["BMW", "Volvo", "Saab", "Ford"];
+    let i = 0;
+    let text = "";
+
+    while (cars[i]) {
+      text += cars[i];
+      i++;
+    }
+    
+    
+6. Do While
+    Loop do whileadalah varian dari while loop. Loop ini akan mengeksekusi blok kode satu kali, sebelum memeriksa apakah kondisinya benar, maka loop akan berulang selama kondisinya benar.
+    
+    Syntaks:
+    do {
+      // code block to be executed
+    }
+    while (condition);
+    
+    Contoh 1,
+        Contoh di bawah ini menggunakan do whileloop. Loop akan selalu dieksekusi setidaknya sekali, bahkan jika kondisi salah, karena blok kode dieksekusi sebelum kondisi diuji:
+        do {
+          text += "The number is " + i;
+          i++;
+        }
+        while (i < 10);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
