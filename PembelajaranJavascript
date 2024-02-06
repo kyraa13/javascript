@@ -1,0 +1,15 @@
+<== JAVASCRIPT BASIC==>
+1. Penyisipan Javascript (Head, Body, External)
+2. Variabel Javascript (Declarations, Data Types)
+  a. Variable Declarations (var, let, const)
+  b. Data Types (Sting, Number, BigInt, Boolean, Undefined, Null, Symbols, Array, Object, A Date)
+3. Operator Javascripts (Aritmethic, Assignment, Comparison, String, Logical, Bitwise, Ternary, Type)
+4. Struktur Kendali Javascript (Conditioning, Looping)
+  a. Conditioning (If, If Else, If ElseIf Else, Switch)
+  b. Looping (for, while, do while)
+5. Functions Javascript (Function Declaraton, Function Expresion)
+6. Built-in Function Javascript
+7. Array
+8. Method Array
+9. Object
+10. OOP Javascript
