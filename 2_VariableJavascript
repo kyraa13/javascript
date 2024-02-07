@@ -1,0 +1,19 @@
+Variable Javascript (Declaration, Data Types)
+  a. Variable Declarations (var, let, const)
+    <=== var ===>
+      var x = 5;
+      v ar y = 6;
+      var z = x + y
+      
+    <=== let ===>
+      let x = 5;
+      let y = 6;
+      let z = x + y;
+
+    <=== const ===>
+      const x = 5;
+      const y = 6;
+      const z = x + y;
+
+      
+  b. Data Types (Sting, Number, BigInt, Boolean, Undefined, Null, Symbols, Array, Object, A Date)
