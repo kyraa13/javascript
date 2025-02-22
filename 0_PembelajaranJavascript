@@ -1,6 +1,6 @@
 <== JAVASCRIPT BASIC==>
 
-1. Penyisipan Javascript (Head, Body, External)
+1. Penyisipan Javascript pada (Head, Body, External)
 2. Variabel Javascript (Declarations, Data Types)
   a. Variable Declarations (var, let, const)
   b. Data Types (String, Number, BigInt, Boolean, Undefined, Null, Symbols, Array, Object, A Date)
