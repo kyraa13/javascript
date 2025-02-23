@@ -1,1 +1,10 @@
-POOPUP BOX
+POOPUP BOX => Memunculkan pesan kecil dalam windows
+
+1. ALERT => Memunculkan windows kecil yang berisi pesan Hello World
+alert("Hello World");
+
+2. PROMPT => Memunculkan windows kecil yang berisi pesan Masukan Nama:, dan inputan yang harus di input
+prompt("Masukan Nama: ");
+
+3. CONFIRM => Memunculkan windows kecil yang berisi pesan "Apakah sudah ok?" beserta tombol ok dan batal di bawahnya
+confirm("Apakah sudah ok?");
