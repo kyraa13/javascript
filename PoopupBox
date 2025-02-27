@@ -33,4 +33,4 @@ confirm("Apakah sudah ok?");
         lagi = confirm("Coba lagi?");
     }
     
-    alert("Terimakasih ");
+    alert("Terimakasih");
