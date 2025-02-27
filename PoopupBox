@@ -8,3 +8,29 @@ prompt("Masukan Nama: ");
 
 3. CONFIRM => Memunculkan windows kecil yang berisi pesan "Apakah sudah ok?" beserta tombol ok dan batal di bawahnya
 confirm("Apakah sudah ok?");
+
+<== Menggabungkan keduanya ==>
+1. Poopup gabungan alert dengan prompt
+    let nama = prompt("masukan nama: ");
+    alert(nama);
+
+2. Poopup dengan menggunakan pengkondisian
+    let tes = confirm("Apakah kamu yakin?");
+    if (tes === true) {
+        alert("User menekan tombol OK!")
+    } else {
+        alert("User menekan tombol Cancel!")
+    }
+
+3. Menggabungkan ketiga poopup dengan menggunakan pengulangan
+    alert("Hallo, selamat datang");
+    let lagi = true;
+    
+    while (lagi === true) {
+        let nama = prompt("masukan nama:");
+        alert("Hallo " + nama);
+    
+        lagi = confirm("Coba lagi?");
+    }
+    
+    alert("Terimakasih ");
