@@ -5,10 +5,20 @@
   a. Variable Declarations (var, let, const)
   b. Data Types (String, Number, BigInt, Boolean, Undefined, Null, Symbols, Array, Object, A Date)
 3. Operator Javascript (Aritmethic, Assignment, Comparison, String, Logical, Bitwise, Ternary, Type)
+  a. Aritmethic
+  b. Assignment
+  c. Comparison
+  d. String
+  e. Logical
+  f. Bitwise
+  g. Ternary
+  h. Type
 4. Struktur Kendali Javascript (Conditioning, Looping)
   a. Conditioning (If, If Else, If ElseIf Else, Switch)
   b. Looping (for, while, do while)
 5. Functions Javascript (Function Declaraton, Function Expresion)
+  a. Function Declaration
+  b. Function Expresion
 6. Built-in Function Javascript
 7. Array
 8. Method Array
