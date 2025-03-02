@@ -6,7 +6,7 @@
   a. Variable Declarations (var, let, const)
   b. Data Types (String, Number, BigInt, Boolean, Undefined, Null, Symbols, Function, Array, Object, A Date)
     1. String
-      Escape character pada string berfungsi untuk menampilkan sebuah character yang diinterpretasikan berbeda pada sebuah bahaasa pemrogramman
+      a. Escape character pada string berfungsi untuk menampilkan sebuah character yang diinterpretasikan berbeda pada sebuah bahaasa pemrogramman
       Contoh Escape character:
         ECharakter  = HASIL
         \0          = karakter NULL
@@ -17,6 +17,17 @@
         \t          = tab
         \b          = backspace
         \uXXXX      = unicode
+      Contoh ECharacter pada unicode
+        ECharacter  = unicode
+        \u00A9      = ©
+        \u00AE      = ®
+        \u2122      = ™
+          ...       = ...
+      b. Concatination / Konkatinasi. Operator konkatinasi adalah operator penggabung string ( + )
+      Contoh: "Berat badanku adalah " + 20 + "kg"
+
+      c. Banyak function / fungsi yang dapat digunakan pada string, salah satu contohnya adalah .length untuk menghitung panjang string
+      Contoh: "Diky Putra Afian".length ==> akan menghasilkan angka 16, dimana ini adalah jumlah character dari stringnya
 
 3. Operator Javascript (Aritmethic, Assignment, Comparison, String, Logical, Bitwise, Conditional, Typeof)
   II. Unary Operators (Operator yang membutuhkan 1 Operand) untuk mencari tahu type data yang digunakan
