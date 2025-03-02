@@ -23,6 +23,7 @@
         \u00AE      = ®
         \u2122      = ™
           ...       = ...
+
       b. Concatination / Konkatinasi. Operator konkatinasi adalah operator penggabung string ( + )
       Contoh: "Berat badanku adalah " + 20 + "kg"
 
