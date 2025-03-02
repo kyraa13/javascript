@@ -5,6 +5,18 @@
 2. Variabel Javascript (Declarations, Data Types)
   a. Variable Declarations (var, let, const)
   b. Data Types (String, Number, BigInt, Boolean, Undefined, Null, Symbols, Function, Array, Object, A Date)
+    1. String
+      Escape character pada string berfungsi untuk menampilkan sebuah character yang diinterpretasikan berbeda pada sebuah bahaasa pemrogramman
+      Contoh Escape character:
+        ECharakter  = HASIL
+        \0          = karakter NULL
+        \'          = '
+        \"          = "
+        \\          = \
+        \n          = new line / baris baru
+        \t          = tab
+        \b          = backspace
+        \uXXXX      = unicode
 
 3. Operator Javascript (Aritmethic, Assignment, Comparison, String, Logical, Bitwise, Conditional, Typeof)
   II. Unary Operators (Operator yang membutuhkan 1 Operand) untuk mencari tahu type data yang digunakan
