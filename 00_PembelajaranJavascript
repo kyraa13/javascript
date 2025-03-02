@@ -3,7 +3,7 @@
 1. Penyisipan Javascript pada (Head, Body, External)
 2. Variabel Javascript (Declarations, Data Types)
   a. Variable Declarations (var, let, const)
-  b. Data Types (String, Number, BigInt, Boolean, Undefined, Null, Symbols, Array, Object, A Date)
+  b. Data Types (String, Number, BigInt, Boolean, Undefined, Null, Symbols, Function, Array, Object, A Date)
 3. Operator Javascript (Aritmethic, Assignment, Comparison, String, Logical, Bitwise, Ternary, Type)
   a. Aritmethic
   b. Assignment
