@@ -1,11 +1,18 @@
 <== JAVASCRIPT BASIC==>
 
 1. Penyisipan Javascript pada (Head, Body, External)
+
 2. Variabel Javascript (Declarations, Data Types)
   a. Variable Declarations (var, let, const)
   b. Data Types (String, Number, BigInt, Boolean, Undefined, Null, Symbols, Function, Array, Object, A Date)
+
 3. Operator Javascript (Aritmethic, Assignment, Comparison, String, Logical, Bitwise, Conditional, Typeof)
-  I. Binary Operators (Operator yang membutuhkan 2 Operand)
+  II. Unary Operators (Operator yang membutuhkan 1 Operand) untuk mencari tahu type data yang digunakan
+  <== operator operand ==> atau <== operand operator ==>
+  Contoh: typeof(operand), typeof(10)
+    a. Typeof
+
+  II. Binary Operators (Operator yang membutuhkan 2 Operand)
   <== operand1 operator operand2 ==>
   Contoh: 1 + 1
     a. Aritmethic (Aritmatika) +, -, *, /, %
@@ -16,20 +23,20 @@
     d. String +
     e. Logical (Logika) &&, ||, !
     g. Bitwise
-  II. Ternary operators (Operator yang membutuhkan 3 Operand)
+
+  III. Ternary operators (Operator yang membutuhkan 3 Operand)
   <== (kondisi) ? benar : salah ==>
   Contoh: (x % 2 == 0) ? "genap" : "ganjil" jika kondisinya bernilai false maka nilai yang akan dikembalikan adalah "ganjil", jika true maka "benar"
     a. Conditional
-  III. Unary Operators (Operator yang membutuhkan 1 Operand) untuk mencari tahu type data yang digunakan
-  <== operator operand ==> atau <== operand operator ==>
-  Contoh: typeof(operand), typeof(10)
-    a. Typeof
+
 4. Struktur Kendali Javascript (Conditioning, Looping)
   a. Conditioning (If, If Else, If ElseIf Else, Switch)
   b. Looping (for, while, do while)
+
 5. Functions Javascript (Function Declaraton, Function Expresion)
   a. Function Declaration
   b. Function Expresion
+
 6. Built-in Function Javascript
 7. Array
 8. Method Array
