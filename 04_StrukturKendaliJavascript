@@ -1,1 +1,41 @@
 STRUKTUR KENDALI JAVASCRIPT (Conditioning, Looping)
+a. Conditioning (If, If Else, If ElseIf Else, Switch)
+b. Looping (for, while, do while)
+  1. for
+  2. while
+  nilai awal
+  while(kondisi terminsi) {
+    aksi;
+    increment / decrement;
+  }
+
+  Contoh 1: 
+
+    let nilai = 1;
+    while(nilai <= 10) {
+      console.log("hello world");
+      nilai++;
+    }
+  
+    Akan menghasilkan teks hello world sebanyak 10x pada console
+
+  Contoh 2:
+    let nilai = 1;
+    while(nilai <= 10) {
+      console.log("hello world " + nilai + " x");
+      nilai++;
+    }
+
+    Akan menghasilkan teks pada concsole:
+    hello world 1x
+    hello world 2x
+    hello world 3x
+    hello world 4x
+    hello world 5x
+    hello world 6x
+    hello world 7x
+    hello world 8x
+    hello world 9x
+    hello world 10x
+
+  3. do while
