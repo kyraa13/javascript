@@ -31,7 +31,7 @@
       Contoh: "Diky Putra Afian".length ==> akan menghasilkan angka 16, dimana ini adalah jumlah character dari stringnya
 
 3. Operator Javascript (Aritmethic, Assignment, Comparison, String, Logical, Bitwise, Conditional, Typeof)
-  II. Unary Operators (Operator yang membutuhkan 1 Operand) untuk mencari tahu type data yang digunakan
+  I. Unary Operators (Operator yang membutuhkan 1 Operand) untuk mencari tahu type data yang digunakan
   <== operator operand ==> atau <== operand operator ==>
   Contoh: typeof(operand), typeof(10)
     a. Typeof
