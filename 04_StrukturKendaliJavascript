@@ -2,6 +2,16 @@ STRUKTUR KENDALI JAVASCRIPT (Conditioning, Looping)
 a. Conditioning (If, If Else, If ElseIf Else, Switch)
 b. Looping (for, while, do while)
   1. for
+  for(let nilaiAwal; nilaiAwal <= 10; increment / decrement) {
+    console.log("hello world");
+  }
+
+  Contoh:
+
+  for(let nilai = 1; nilai <= 10; nilai++) {
+    console.log("hello world");
+  }
+
   2. while
   nilai awal
   while(kondisi terminsi) {
@@ -39,3 +49,19 @@ b. Looping (for, while, do while)
     hello world 10x
 
   3. do while
+
+  4. Gabungan
+
+  a. while dan for
+    let jmlAngkot = 10;
+    let AngkotBeroprasi = 6;
+    let noAngkot = 1;
+    
+    while (noAngkot <= AngkotBeroprasi) {
+        console.log("Angkot no. " +noAngkot+ " Beroprasi dengan baik");
+        noAngkot++;
+    }
+    
+    for(noAngkot = AngkotBeroprasi + 1; noAngkot <= jmlAngkot; noAngkot++) {
+        console.log("Angkot no. " + noAngkot + " tidak beroprasi dengan baik");
+      }
