@@ -1,1 +1,22 @@
 OPERATOR JAVASCRIPT (Aritmethic, Assignment, Comparison, String, Logical, Bitwise, Ternary, Type)
+I. Unary Operators (Operator yang membutuhkan 1 Operand) untuk mencari tahu type data yang digunakan
+  <== operator operand ==> atau <== operand operator ==>
+  Contoh: typeof(operand), typeof(10)
+    a. Typeof
+
+  II. Binary Operators (Operator yang membutuhkan 2 Operand)
+  <== operand1 operator operand2 ==>
+  Contoh: 1 + 1
+    a. Aritmethic (Aritmatika) +, -, *, /, %
+      - Operator Presedence / urutan operasi matematika: KuKaBaTaKu = () * / + -
+    b. Assignment (Penugasan) =, +=, -=, *=, /=, %=
+    c. Comparison (Perbandingan) ==, !=, ===, !==, >, <, >=, <=
+      - Operator perbandingan akan menghasilkan nilai boolean, true jika benar dan false jika salah
+    d. String +
+    e. Logical (Logika) &&, ||, !
+    g. Bitwise
+
+  III. Ternary operators (Operator yang membutuhkan 3 Operand)
+  <== (kondisi) ? benar : salah ==>
+  Contoh: (x % 2 == 0) ? "genap" : "ganjil" jika kondisinya bernilai false maka nilai yang akan dikembalikan adalah "ganjil", jika true maka "benar"
+    a. Conditional
