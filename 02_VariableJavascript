@@ -16,4 +16,4 @@ Variable Javascript (Declaration, Data Types)
       const z = x + y;
 
       
-  2. Data Types (Sting, Number, BigInt, Boolean, Undefined, Null, Symbols, Array, Object, A Date)
+  2. Data Types (Srting, Number, BigInt, Boolean, Undefined, Null, Symbols, Function, Array, Object, A Date)
