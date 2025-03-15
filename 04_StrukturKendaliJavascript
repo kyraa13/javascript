@@ -9,7 +9,44 @@ a. Conditioning (If, If Else, If ElseIf Else, Switch)
       alert("Anda memasukan angka 'Ganjil'")
     }
 
-    #2.Contoh Kedua
+    #2.Contoh Kedua (If ElseIf Else)
+    let angka = prompt("Masukan angka")
+    if (angka % 2 === 0) {
+      alert("Anda memasukan angka 'GENAP'!")
+    } else if (angka % 2 === 1) {
+      alert("Anda memasukan angka 'Ganjil'")
+    }
+    else {
+      alert("Anda tidak memasukan angka! Tolong untuk memasukan Angka!")
+    }
+
+    #3.Contoh ketiga (Memasukan if else pada FOR)
+    let jmlAngkot = 10;
+    let AngkotBeroprasi = 6;
+    
+    for(let noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++) {
+        if (noAngkot <= AngkotBeroprasi ) {
+            console.log("Angkot no. " + noAngkot + " beroprasi dengan baik");    
+        } else {
+            console.log("Angkot no. " + noAngkot + " tidak beroprasi dengan baik");
+        }
+      }
+
+    #4.Contoh keempat(Memasukan If ElseIf Else pada FOR)
+    let jmlAngkot = 10;
+    let AngkotBeroprasi = 6;
+    
+    for(let noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++) {
+        if (noAngkot <= AngkotBeroprasi ) {
+            console.log("Angkot no. " + noAngkot + " beroprasi dengan baik");    
+        } else if (noAngkot === 8) {
+            console.log("Angkot no. " + noAngkot + " sedang lembur");
+        }
+        else {
+            console.log("Angkot no. " + noAngkot + " sedang tidak beroprasi");
+        }
+      }
+
 b. Looping (for, while, do while)
   1. for
   for(let nilaiAwal; nilaiAwal <= 10; increment / decrement) {
