@@ -47,6 +47,21 @@ a. Conditioning (If, If Else, If ElseIf Else, Switch)
         }
       }
 
+    #5.Contoh kelima(Memasukan If ElseIf Else pada FOR dengan menggunakan operator logika)
+    let jmlAngkot = 10;
+    let AngkotBeroprasi = 6;
+    
+    for(let noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++) {
+        if (noAngkot <= AngkotBeroprasi && noAngkot !== 5) {
+            console.log("Angkot no. " + noAngkot + " beroprasi dengan baik");    
+        } else if (noAngkot === 5 || noAngkot === 8 || noAngkot === 10) {
+            console.log("Angkot no. " + noAngkot + " sedang lembur");
+        }
+        else {
+            console.log("Angkot no. " + noAngkot + " sedang tidak beroprasi");
+        }
+      }
+
 b. Looping (for, while, do while)
   1. for
   for(let nilaiAwal; nilaiAwal <= 10; increment / decrement) {
