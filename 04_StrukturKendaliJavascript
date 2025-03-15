@@ -1,5 +1,15 @@
 STRUKTUR KENDALI JAVASCRIPT (Conditioning, Looping)
 a. Conditioning (If, If Else, If ElseIf Else, Switch)
+  1. If, If Else, If elseIf
+    #1.Contoh Pertama (If Else)
+    let angka = prompt("Masukan angka")
+    if (angka % 2 === 0) {
+      alert("Anda memasukan angka 'GENAP'!")
+    } else {
+      alert("Anda memasukan angka 'Ganjil'")
+    }
+
+    #2.Contoh Kedua
 b. Looping (for, while, do while)
   1. for
   for(let nilaiAwal; nilaiAwal <= 10; increment / decrement) {
